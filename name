@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    char string_line[60];
+    printf("이름을 입력하시오: \n");
+    gets(string_line);
+    printf("입력한 이름: ");
+    puts(string_line);
+}
